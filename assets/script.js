@@ -5,6 +5,8 @@ var lowerArray = lowerString.split("");
 var upperString = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var upperArray = upperString.split("")
 console.log(upperArray)
+console.log(lowerArray)
+
 function askForOptions() {
     var passLength = prompt("how many characters would you like");
     if(passLength === "") {
